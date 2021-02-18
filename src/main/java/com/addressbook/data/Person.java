@@ -1,11 +1,16 @@
-package com.addressbook.main;
+package com.addressbook.data;
 
 public class Person {
-	private String name, lastname;
-	private int age;
+	private String name;
+	private String lastname;
+	private String age;
 	private Address address;
 
-	public Person(String name, String lastname, Address address, int age) {
+	public Person(){
+		
+	}
+	
+	public Person(String name, String lastname, Address address, String age) {
 		this.name = name;
 		this.lastname = lastname;
 		this.address = address;
@@ -28,11 +33,11 @@ public class Person {
 		this.lastname = lastname;
 	}
 
-	public int getAge() {
+	public String getAge() {
 		return age;
 	}
 
-	public void setAge(int age) {
+	public void setAge(String age) {
 		this.age = age;
 	}
 
@@ -51,7 +56,7 @@ public class Person {
 	}
 	
 
-//	 public String toString() {
-//	 return name+","+lastname+","address+","+number+",";
-//	 }
+	 public String toString() {
+	 return name+","+lastname+","+address+","+age+",";
+	 }
 }

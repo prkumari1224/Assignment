@@ -1,4 +1,4 @@
-package com.addressbook.main;
+package com.addressbook.data;
 
 public class Address {
 	private String street;
@@ -28,6 +28,9 @@ public class Address {
 		          && country.equals(this.country))
 		      return true;
 		    return false;
-		  }
-
+	}
+	 
+	 public String toString() {
+		 return street+","+city+","+country+",";
+		 }
 }
