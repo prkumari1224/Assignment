@@ -14,5 +14,5 @@ You can download the latest release of the project from releases page and start 
 # How to run?
 
 You can use the java -jar command from cmd prompt and run the jar:
-**java -jar *(path to jar)*/AddressBook.jar *(Search String)**
+***java -jar *(path to jar)*/AddressBook.jar *(Search String)**
 and simply enter the search string to view the search results.
