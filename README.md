@@ -16,3 +16,8 @@ You can download the latest release of the project from releases page and start 
 You can use the java -jar command from cmd prompt and run the jar:
 *java -jar *(path to jar)*/AddressBook.jar *(Search String)**
 and simply enter the search string to view the search results.
+
+Note:- You need to add your own csv(Address Book) by the name **addressbook.csv**, also make sure to place the csv and jar in same folder.
+
+CSV Format to be followed: "Dave","Smith","123 main st.","seattle","wa","43"
+
