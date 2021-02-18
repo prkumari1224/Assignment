@@ -10,4 +10,4 @@ Using this application you can search for a contact in a given address book by:
 
 # How to setup?
 You can download the latest release of the project from releases page and start using it right away.
-Double click the jar, and simply enter the search string to view the search results.
+Run the jar, and simply enter the search string to view the search results.
